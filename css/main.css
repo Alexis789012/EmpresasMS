@@ -255,6 +255,8 @@ width: 11px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 700px; /* Altura base en escritorio */
+  min-height: 400px;
 }
 
 /* Ajuste de altura */
@@ -280,7 +282,7 @@ width: 11px;
   }
 
   #home-carousel .carousel-inner .item {
-      height: 400px; /* Reduced height for mobile */
+      height: 500px; /* Reduced height for mobile */
   }
 
   #home-carousel .carousel-caption {
@@ -289,7 +291,7 @@ width: 11px;
       bottom: 0;
       left: 0;
       right: 0;
-      background: rgba(0, 0, 0, 20);
+      background: rgba(0, 0, 0, 0.5);
   }
 
   #home-carousel .carousel-caption h2 {
@@ -331,7 +333,7 @@ width: 11px;
 /* Additional adjustments for very small screens */
 @media (max-width: 480px) {
   #home-carousel .carousel-inner .item {
-      height: 300px;
+      height: 400px;
   }
 
   #home-carousel .carousel-caption h2 {
